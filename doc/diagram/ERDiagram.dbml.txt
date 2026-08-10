@@ -10,7 +10,7 @@ Table users {
   created_at datetime
 }
 
-Table client_profiles {
+Table client_profiles{
   client_id int [pk, increment]
   user_id int [unique, not null]
   company_name varchar(150)
