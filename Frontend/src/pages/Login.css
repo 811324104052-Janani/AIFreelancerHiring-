@@ -1,0 +1,75 @@
+/* Full page background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: Arial, sans-serif;
+}
+
+/* Card box */
+.login-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  margin-bottom: 20px;
+  color: #1e3c72;
+}
+
+/* Form inputs */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.login-input:focus {
+  border: 1px solid #1e3c72;
+}
+
+/* Button */
+.login-button {
+  margin-top: 15px;
+  padding: 12px;
+  background: #1e3c72;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background: #2a5298;
+}
+
+/* Footer */
+.login-footer {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.login-footer a {
+  color: #1e3c72;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login-footer a:hover {
+  text-decoration: underline;
+}
